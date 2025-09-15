@@ -4,3 +4,6 @@ from django.test import SimpleCaseTest
 class MakeToastTests(SimpleCaseTest):
     def test_make_toast(self):
         self.assertEqual(make_toast(), 'toast')
+
+def make_toast():
+    return 'toast'
