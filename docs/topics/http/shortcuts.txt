@@ -322,6 +322,6 @@ This example is equivalent to::
 
 .. function:: make_toast()
 
-.. versionadded:: 2.2
+.. versionadded:: 6.0
 
 Returns ``'toast'``.
